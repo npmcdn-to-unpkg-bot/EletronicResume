@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b152df-aa33-4f52-b352-8209f665abda" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banner.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner.psd" afterPath="$PROJECT_DIR$/images/banner.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="html5up-spectral.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -682,12 +679,12 @@
       <workItem from="1466508461321" duration="15107000" />
       <workItem from="1466578954783" duration="181000" />
       <workItem from="1466579192396" duration="3485000" />
-      <workItem from="1466732840350" duration="20639000" />
+      <workItem from="1466732840350" duration="21233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39412000" />
+    <option name="totallyTimeSpent" value="40006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1920" height="1057" extended-state="6" />
