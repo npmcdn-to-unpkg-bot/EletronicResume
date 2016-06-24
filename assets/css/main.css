@@ -292,19 +292,19 @@ body {
     margin: -0.75em 0 -1px -0.75em;
 }
 
-.row.\32 5\25 > * {
+.row.\325\25 > * {
     padding: 0 0 0 0.375em;
 }
 
-.row.\32 5\25 {
+.row.\325\25 {
     margin: 0 0 -1px -0.375em;
 }
 
-.row.uniform.\32 5\25 > * {
+.row.uniform.\325\25 > * {
     padding: 0.375em 0 0 0.375em;
 }
 
-.row.uniform.\32 5\25 {
+.row.uniform.\325\25 {
     margin: -0.375em 0 -1px -0.375em;
 }
 
@@ -2301,7 +2301,7 @@ input[type="reset"].special,
 input[type="button"].special,
 button.special,
 .button.special {
-    background-color: #ed4933;
+    background-color: #DF740C;
     box-shadow: none !important;
     color: #ffffff !important;
 }
@@ -2421,7 +2421,7 @@ button:disabled,
 
 .features li:before {
     display: block;
-    color: #00ffcc;
+    color: #DF740C;
     position: absolute;
     left: 1.75em;
     top: 2.75em;
@@ -2587,6 +2587,21 @@ button:disabled,
     }
 }
 
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* Wrapper */
 
@@ -2616,7 +2631,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-    background-color: #21b2a6;
+    background-color: #0da5d7;
     color: #c7ebe8;
 }
 
@@ -2777,11 +2792,11 @@ button:disabled,
 }
 
 .wrapper.style2 {
-    background-color: #2e3842;
+    background-color: #020A0D;
 }
 
 .wrapper.style3 {
-    background-color: #505393;
+    background-color: #0C141F;
     color: #d3d4e4;
 }
 
@@ -3244,7 +3259,7 @@ body.is-menu-visible #menu {
     -webkit-transition: background-color 0.2s ease;
     -ms-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
-    background: #2e3842;
+    background: #DF740C;
     height: 3em;
     left: 0;
     line-height: 3em;
