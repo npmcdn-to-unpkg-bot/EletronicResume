@@ -143,7 +143,7 @@ var canvasLightning = function(c, cw, ch){
                 this.createL(newX, newY, true);
             }
             this.lightTimeCurrent = 0;
-            this.lightTimeTotal = this.rand(30, 50);
+            this.lightTimeTotal = this.rand(30, 300);
         }
     }
 

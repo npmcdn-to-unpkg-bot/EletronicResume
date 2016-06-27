@@ -1,8 +1,13 @@
+.carrerObjDiv{
+    display: block;
+    position: relative;
+}
+
+
 .neonEffectBlue {
     color: #0da5d7 !important;
 
 }
-
 
 #main h2{
     -webkit-transition: all 0.5s;
