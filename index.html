@@ -13,12 +13,45 @@
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
 </head>
 
 <body class="landing">
+    <script type="text/javascript">
+        $(document).ready( function(){
+            console.log('this is being kicked');
 
+            //Get the canvas &
+            var c = $('#canvasBanner');
+            var ct = c.get(0).getContext('2d');
+            var container = $(c).parent();
+
+            //Run function when browser resizes
+            $(window).resize( canvasBanner );
+
+            function canvasBanner(){
+                c.attr('width', $(container).width() ); //max width
+                c.attr('height', $(container).height() ); //max height
+                console.log('this is being kicked as well');
+                //Call a function to redraw other content (texts, images etc)
+
+            }
+
+            //Initial call
+            canvasBanner();
+
+
+        });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/image_spotlight.js"></script>
+    <script  type="text/javascript" src="assets/js/lightining.js"></script>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
 
@@ -43,16 +76,29 @@
         </header>
 
         <!-- Banner -->
-        <section id="banner">
-            <div class="inner">
-                <h2>LUIZ CAVALIERI</h2>
-                <p>"Working and Studying<br /> what I love for the last 2,5 years,<br /> made me realise how important it is.<br /> when you enjoy what you do, <br /> you will never <strong>HAVE</strong> to work, <br/> you work because you want..."</p>
+
+        <section id="banner" role="main">
+            <canvas id="canvasBanner" style="position: absolute; z-index: 10; top: 0px;"></canvas>
+
+            <div class="inner" style="z-index: 100;">
+                <h2 class="neonEffectBlue">LUIZ CAVALIERI</h2>
+                <p>"Working and Studying<br />
+                    what I love for the last 2,5 years,<br />
+                    made me realise how important it is.<br />
+                    when you enjoy what you do, <br />
+                    you will never <strong>HAVE</strong> to work, <br/>
+                    you work because you want..."</p>
                 <ul class="actions">
-                    <li><a href="LuizCavalieri-Web&MobileDeveloper-062016.pdf" target="_blank" class="button special"><span class="icon fa-download"></span> Download Resume</a></li>
+                <li>
+                    <a href="LuizCavalieri-Web&MobileDeveloper-062016.pdf" target="_blank" class="button special">
+                        <span class="icon fa-download"></span> Download Resume
+                    </a>
+                </li>
                 </ul>
             </div>
-            <a href="#one" class="more scrolly">Learn More</a>
+                <a href="#one" class="more scrolly">Learn More</a>
         </section>
+
 
         <!-- One -->
         <section id="one" class="wrapper style1 special">
@@ -66,7 +112,8 @@
                 <ul class="icons major">
                     <li><span class="icon fa-mobile-phone major style1"><span class="label">Mobile</span></span>
                     </li>
-                    <li><span class="icon fa-desktop major style2"><span class="label">Web</span></span>
+                    <li><span class="icon fa-desktop major style2"><span class="label">Web
+                    </span></span>
                     </li>
                     <li><span class="icon fa-code major style3"><span class="label">Programming</span></span>
                     </li>
@@ -274,129 +321,13 @@
                     <h2>Academic Progress</h2>
                     <p> In the Bachelor of IT (Mobile Applications Development), <br /> I have got so far outstanding grades without failing in any subject...</p>
                 </header>
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Course Name</th>
-                                <th>End Date</th>
-                                <th>Grade</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Foundation programming</td>
-                                <td>29/06/2014</td>
-                                <td>Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Introduction to Web</td>
-                                <td>29/06/2014</td>
-                                <td>High Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>C++</td>
-                                <td>29/06/2014</td>
-                                <td>Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Information systems</td>
-                                <td>29/06/2014</td>
-                                <td>Credit</td>
-                            </tr>
-                            <tr>
-                                <td>Database systems</td>
-                                <td>26/10/2014</td>
-                                <td>Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Web design</td>
-                                <td>26/10/2014</td>
-                                <td>Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Enterprise systems (.NET and C#)</td>
-                                <td>26/10/2014</td>
-                                <td>Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Foundation networks</td>
-                                <td>26/10/2014</td>
-                                <td>Pass</td>
-                            </tr>
-
-                            <tr>
-                                <td>Digital Project Management</td>
-                                <td>28/06/2015</td>
-                                <td>High Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Introduction to software engineering</td>
-                                <td>28/06/2015</td>
-                                <td>Credit</td>
-                            </tr>
-
-                            <tr>
-                                <td>Discrete Mathematics</td>
-                                <td>28/06/2015</td>
-                                <td>Pass</td>
-                            </tr>
-                            <tr>
-                                <td>Java</td>
-                                <td>28/06/2015</td>
-                                <td>High Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Mobile apps android</td>
-                                <td>25/10/2015</td>
-                                <td>High Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Cross-platform apps</td>
-                                <td>25/10/2015</td>
-                                <td>Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Advanced Studio 1</td>
-                                <td>25/10/2015</td>
-                                <td>High Distinction</td>
-                            </tr>
-
-                            <tr>
-                                <td>Advanced web</td>
-                                <td>25/10/2015</td>
-                                <td>High Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Advanced Studio 2</td>
-                                <td>26/06/2016</td>
-                                <td>High Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Mobile Apps IOS</td>
-                                <td>26/06/2016</td>
-                                <td>High Distinction</td>
-                            </tr>
-                            <tr>
-                                <td>Data Driven Apps (ASP.NET and C#)</td>
-                                <td>26/06/2016</td>
-                                <td>High Distinction</td>
-                            </tr>
-
-                        </tbody>
-                        <!--<tfoot>-->
-                        <!--<tr>-->
-                        <!--<td colspan="2"></td>-->
-                        <!--<td>100.00</td>-->
-                        <!--</tr>-->
-                        <!--</tfoot>-->
-                    </table>
-                </div>
+                <ul class="actions">
+                    <li>
+                        <a href="academic.html" target="_blank" class="button specialBlue">
+                            <span class="icon fa-graduation-cap"></span> Academic Progress
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -432,13 +363,13 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
+    <script type="text/javascript" src="assets/js/animation_canvas.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.scrollex.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.scrolly.min.js"></script>
+    <script type="text/javascript" src="assets/js/skel.min.js"></script>
+    <script type="text/javascript" src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>
 
