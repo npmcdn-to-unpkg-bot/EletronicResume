@@ -1,3 +1,21 @@
+.wrapper > .innerLg
+{
+    width: 100em;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1280px) {
+    .wrapper > .innerLg {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper > .innerLg {
+        width: 100%;
+    }
+}
+
+
 .carrerObjDiv{
     display: block;
     position: relative;
