@@ -10,13 +10,13 @@
 }
 @media screen and (max-width: 1280px) {
     .wrapper > .innerLg {
-        width: 90%;
+        width: 85%;
     }
 }
 
 @media screen and (max-width: 980px) {
     .wrapper > .innerLg {
-        width: 100%;
+        width: 95%;
     }
 }
 
