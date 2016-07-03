@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>EDM Test</title>
+		<style type="text/css">
+			body { margin: 0; padding: 0; }
+			.buttonGradient{
+				
+				margin-left: 35%;
+				padding: 10px;
+				border:0px solid #C65401;
+				-webkit-border-radius: 0px; 
+				-moz-border-radius: 0px;border-radius: 0px;
+				font-size:18px;font-family:arial, helvetica, sans-serif; 
+				padding: 10px 10px 10px 10px; text-decoration:none; 
+				display:inline-block;
+				text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+				font-weight:bold; color: #FFFFFF; 
+				background-color: #FE6C01; 
+				background-image: -webkit-gradient(linear, left top, left bottom, from(#FE6C01), to(#F80902));  
+				background-image: -webkit-linear-gradient(top, #FE6C01, #F80902);  
+				background-image: -moz-linear-gradient(top, #FE6C01, #F80902); 
+				background-image: -ms-linear-gradient(top, #FE6C01, #F80902); 
+				background-image: -o-linear-gradient(top, #FE6C01, #F80902);  
+				background-image: linear-gradient(to bottom, #FE6C01, #F80902);
+				filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FE6C01, endColorstr=#F80902);"
+			}
+			.callout_1{
+				width: 33%;
+			}
+			
+			
+			@media only screen and (max-width: 660px){
+			
+				.callout_1{
+					width: 90%;
+				}	
+				table.container{
+					width: 480px !important;
+				}
+			}
+			@media only screen and (max-width: 510px){
+				table.container{
+					width: 100% !important;
+				}
+				table.container td {border: none !important;}
+			}
+			@media only screen and (max-width: 400px){
+				
+			}
+			
+			
+			
+		</style>
+	</head>	
+	<body bgcolor="#000000">
+
+		<!-- beginning td tag for headline row -->
+		
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="">
+			<tr>
+			  <td>
+				
+				<table class="container" width="640" align="center" border="0" cellpadding="0">
+						<tr>
+							<td valign="top" class="logo" bgcolor="#000000" style="padding: 10px 20px 0px 30px; border-left: 1px solid #000000; border-right: 1px solid #000000; border-top:1px solid #000000   ">
+
+							</td>
+
+						</tr>	
+						<tr>
+							<td valign="top" class="headline" bgcolor="#000000" style="padding: 15px 20px 5px 30px; border-left: 1px solid #666; border-right: 1px solid #666; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
+							<img src="http://iamlc.mobi/Header.png" alt="Logo company" width="100%"/>
+							</td>
+
+						</tr>
+						<tr>
+							<td valign="top" class="headline" bgcolor="#000000" style="padding: 15px 20px 5px 30px; border-left: 1px solid #666; border-right: 1px solid #666; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
+							<img src="http://iamlc.mobi/Hero.png" alt="Logo company" width="100%"/>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" class="headline" bgcolor="#000000" style="padding: 15px 20px 5px 30px; border-left: 1px solid #666; border-right: 1px solid #666; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #ffffff">
+							<p>Dear Firstname,</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+
+									<span style="list-style-type:none" ><input type="radio">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</input></span><br />
+									<span style="list-style-type:none" ><input type="radio">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</input></span><br />		
+									<span style="list-style-type:none" ><input type="radio">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</input></span>
+
+								<div style=" margin-top: 20px;  width:100%;">
+									<a class="buttonGradient">CALL 131 888</a>
+								</div>
+								<br>
+								<br>	
+							</td>
+						</tr>
+
+						<tr>
+							<td valign="top" bgcolor="#fff" class="callout" style="background-color: #fff; padding: 30px; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #666;">
+								<table class="callout_1" align="left" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td valign="top" style=" width: 90%; padding-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; color: #666666;">
+											<div width="75" height="75" style="width: 100%; min-height:123px; height:auto;  display: block; background-color: #ff0000;" bgcolor="#ff0000"> </div><br>
+
+											<h3>Support 1</h3>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+											<br><br>
+
+										</td>
+									</tr>
+								</table>
+								<table class="callout_1" align="left" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td valign="top" style=" width: 90%; padding-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; color: #666666;">
+											<div width="75" height="75" style="width: 100%; min-height:123px; height:auto;  display: block; background-color: #ff5400;" bgcolor="#ff5400"> </div><br>
+
+											<h3>Support 2</h3>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+											<br><br>
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="callout_1" align="left" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td valign="top" style=" width: 90%; padding-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; color: #666666;">
+											<div width="75" height="75" style="width: 100%; min-height:123px; height:auto;  display: block; background-color: #b31f1f;" bgcolor="#b31f1f"> </div><br>
+											<h3>Support 3</h3>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+											<br><br>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" class="callout" bgcolor="#000000" style=" padding: 0px 0px 0px 0px; border-left: 1px solid #666; border-right: 1px solid #666; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; min-height: 60px;">
+							  <img src="http://iamlc.mobi/Shadow-Sp.png" alt="Shaddow" width="100%">
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" class="footer" bgcolor="#111111" style="padding: 15px 20px 5px 30px; border-left: 1px solid #666; border-right: 1px solid #666; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 22px; min-height: 60px; color:#666 !important;">
+								<h4><a href="#" style="color:#666 !important; text-decoration: none">TERMS & CONDITIONS</a> | <a href="#" style="color:#666 !important; text-decoration: none">PRIVACY POLICY</a> | <a href="#" style="color:#666 !important; text-decoration: none">ABOUT US</a> | <a href="#" style="color:#666 !important; text-decoration: none">CONTACT US</a></h4>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, Call us on 1300 131 881 vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Unsubscribe here.
+
+								(c) 2016 All rights reserved. Company name Pty Ltd
+							</td>
+						</tr>
+				  </table>
+				</td>
+			</tr>
+		</table>
+
+		
+
+	</body>	
+</html>

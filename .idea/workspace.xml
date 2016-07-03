@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72b152df-aa33-4f52-b352-8209f665abda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experience.html" afterPath="$PROJECT_DIR$/experience.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="72b152df-aa33-4f52-b352-8209f665abda" name="Default" comment="" />
     <ignored path="html5up-spectral.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -789,7 +785,7 @@
       <workItem from="1466732840350" duration="22194000" />
       <workItem from="1466813666072" duration="29588000" />
       <workItem from="1467197861095" duration="3841000" />
-      <workItem from="1467510025197" duration="7818000" />
+      <workItem from="1467510025197" duration="7902000" />
     </task>
     <task id="LOCAL-00001" summary="Update menu of all the pages">
       <created>1467014492960</created>
@@ -823,7 +819,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82214000" />
+    <option name="totallyTimeSpent" value="82298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1015" extended-state="6" />
