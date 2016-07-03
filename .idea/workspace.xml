@@ -785,7 +785,7 @@
       <workItem from="1466732840350" duration="22194000" />
       <workItem from="1466813666072" duration="29588000" />
       <workItem from="1467197861095" duration="3841000" />
-      <workItem from="1467510025197" duration="4982000" />
+      <workItem from="1467510025197" duration="5035000" />
     </task>
     <task id="LOCAL-00001" summary="Update menu of all the pages">
       <created>1467014492960</created>
@@ -808,11 +808,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467332652318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Professional Experience page completed">
+      <created>1467532355476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1467532355476</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79378000" />
+    <option name="totallyTimeSpent" value="79431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1015" extended-state="6" />
@@ -835,7 +842,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14594595" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14626218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -859,7 +866,8 @@
     <MESSAGE value="Update menu of all the pages" />
     <MESSAGE value="fixing the &quot;p&quot; tag text-size from 3.5em  to 1em" />
     <MESSAGE value="started the portfolio of graphic designer" />
-    <option name="LAST_COMMIT_MESSAGE" value="started the portfolio of graphic designer" />
+    <MESSAGE value="Professional Experience page completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Professional Experience page completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
