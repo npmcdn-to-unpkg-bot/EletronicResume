@@ -1,7 +1,18 @@
-.darkBg{
+.darkBg_75{
+    background-color: rgba(13, 165, 215, 0.75);
+}
+
+.darkBg_50{
+    background-color: rgba(13, 165, 215, 0.50);
+}
+
+.darkBg_25{
     background-color: rgba(13, 165, 215, 0.25);
 }
 
+.darkBg_00{
+    background-color: rgba(13, 165, 215, 1);
+}
 
 .wrapper > .innerLg
 {
