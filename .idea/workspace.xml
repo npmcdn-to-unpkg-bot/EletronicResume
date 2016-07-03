@@ -783,7 +783,7 @@
       <workItem from="1466732840350" duration="22194000" />
       <workItem from="1466813666072" duration="29588000" />
       <workItem from="1467197861095" duration="3841000" />
-      <workItem from="1467510025197" duration="5292000" />
+      <workItem from="1467510025197" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="Update menu of all the pages">
       <created>1467014492960</created>
@@ -817,7 +817,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79688000" />
+    <option name="totallyTimeSpent" value="79736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1015" extended-state="6" />
