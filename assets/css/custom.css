@@ -1,3 +1,8 @@
+.darkBg{
+    background-color: rgba(13, 165, 215, 0.25);
+}
+
+
 .wrapper > .innerLg
 {
     width: 100em;
