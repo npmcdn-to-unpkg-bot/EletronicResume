@@ -5,7 +5,7 @@
 
 .wrapper > .innerLg
 {
-    width: 100em;
+    width: 95em;
     margin: 0 auto;
 }
 @media screen and (max-width: 1280px) {
